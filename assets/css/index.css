@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, rgba(209, 207, 207, 0.877),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 200px;
+}
+.container-box {
+    background: #ffffff00;
+    width: 100px;
+    margin: 50px;    
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    margin-right: 18px;
+    display: flex;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#icon{
+    position: absolute;
+    top:50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-image: url('../assets/img/eye-on');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.mensagem {
+    margin-top: 20px;
+    text-align: center;
+}
+.btnlink{
+   margin-left: 3px;
+}
+@media(max-width:450px){
+    
+}
+@media(orientation: landscape){
+    
+}
