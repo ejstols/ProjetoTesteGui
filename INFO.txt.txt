@@ -1,0 +1,59 @@
+INSTRUÇÕES PARA NAVEGAR NO SITE //
+
+Dentro da pasta "agrosys" tem um arquivo html e o outro é uma pasta
+para onde leva para as outras páginas do site.
+
+ACESSANDO A PÁGINA DE LOGIN/CADASTRO
+
+O arquivo index.html, o leva para a tela de login, onde não será possível fazer
+pois ainda é preciso criar uma conta.
+
+Para criar a conta, basta clicar no botão cinza escrito "Criar conta", onde haverá 3 campos
+usuário, senha e confirmar senha, onde aceita textos, caso já tenha criado um usuário e senha
+e tente criar novamente, irá aparecer uma mensagem em vermelho dizendo que este usuário/senha
+já existe.
+
+Após clicar em criar conta, ele vai automaticamente voltar para a página de login, onde você
+pode preencher com suas informações de usuário e senha.
+
+O botão "Configurações" serve para você poder importar um banco externo de cadastros de clientes
+e de endereços de clientes. (o banco precisa estar em JSON)
+
+ACESSANDO AO CADASTRO E LISTAGEM DE CLIENTES
+
+Após o login, você será redirecionado para a lista de clientes, onde tem um botão verde com
+"Cadastrar Cliente" e o outro cinza com "Listar" 
+
+BOTÃO DE CADASTRAR CLIENTE: Irá carregar uma página de formulário para você poder preencher as
+informações do cliente, como, nome, cpf, data de nascimento, telefone, celular,
+também validando se o cpf já está cadastrado (assim como descrito nos requisitos, escopo do projeto). 
+Caso não tenha preenchido todos os campos, irá mandar uma mensagem avisando que ainda existes lugares
+para preencher, e caso reconheça que já existe um cpf, irá emitir uma mensagem de erro dizendo que já existe
+e destacar o campo.
+
+Após clicar em cadastrar, com todos os campos preenchidos corretamente você irá retornar a listagem
+de clientes.
+
+BOTÃO DE LISTAR: Para aparecer os clientes cadastrados, basta apenas clicar no botão cinza ao lado de 
+cadastrar cliente escrito "Listar" que irá aparecer os clientes registrados, caso tenha importado um banco
+o botão listar também irá fazer a mesma ação.
+
+ACESSANDO AO CADASTRO E LISTAGEM DE ENDEREÇOS
+
+Para nos direcionarmos para a listagem de endereços basta clicar em "Endereços" na barra no topo do site
+irá também conter dois botões, um para o cadastro de endereço, e o outro para a listagem de endereços.
+
+BOTÃO DE CADASTRAR ENDEREÇO: Irá carregar uma página de formulário para poder preencher as informações de endereço do cliente
+como CEP, rua, bairro, cidade, estado, país e o identificador do cliente, no identificador basta apenas colocar o id do cliente cadastrado
+e irá aparecer o nome do cliente logo abaixo, assim associando o endereço ao cliente.
+
+BOTÃO DE LISTAR: Ao clicar no botão cinza do lado de cadastrar endereço escrito "Listar" vai aparecer os endereços registrados, caso
+tenha importado o banco, lá na página inicial, ele irá fazer a mesma ação.
+
+EXPORTANDO O BANCO DE CLIENTES E ENDEREÇOS
+
+No topo do site, onde há uma barra de menu contendo clientes que o leva para a listagem de clientes, e Endereços, onde o leva para
+a listagem de endereços, ao lado haverá uma opção "Exportar" ao clicar nela de qualquer página, abrirá uma a pasta de seleção de download do banco
+o nome do banco se chama "dados_agrosys" em formato JSON.
+
+Ao lado, haverá o botão "Sair" onde retorna a página de login, caso ainda queira importar outro banco.
